@@ -1,11 +1,11 @@
-# React Photo Collage
+# React Photo Collage Custom
 
-[![image](https://nodei.co/npm/react-photo-collage.png?downloads=true&stars=true)](https://www.npmjs.com/package/react-photo-collage)
+[![image](https://nodei.co/npm/react-photo-collage-custom.png?downloads=true&stars=true)](https://www.npmjs.com/package/react-photo-collage-custom)
 
 ## Installation
 
 ```
-npm install react-photo-collage
+npm install react-photo-collage-custom
 ```
 
 ## Props

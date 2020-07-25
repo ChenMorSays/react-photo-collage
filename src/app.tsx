@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 import styled from 'styled-components';
-import Lightbox from 'react-images';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css'; // This only needs to be imported once in your app
 
 import Photo from './photo';
 
@@ -99,14 +100,14 @@ const PhotoCollage = (props: Props) => {
     return(
         <S.Collage cWidth={width}>
             {cContent}
-            <Lightbox 
+            {/* <Lightbox 
                 currentImage={currentImage}
                 images={photos} 
                 isOpen={lightboxIsOpen} 
                 onClickPrev={() => setCurrentImage(currentImage - 1)} 
                 onClickNext={() => setCurrentImage(currentImage + 1)} 
                 onClose={() => setLightboxState(false)} 
-            />
+            /> */}
         </S.Collage>
     );
 }
